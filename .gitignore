@@ -1,0 +1,20 @@
+# Large original datasets
+dataset/raw/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
