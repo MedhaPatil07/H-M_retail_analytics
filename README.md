@@ -77,3 +77,69 @@ Model evaluation included the elbow method and a silhouette score calculated on 
 The resulting cluster profiles support comparisons of purchasing frequency, spending, and recency. The segments are exploratory and should be validated before being used for actual customer targeting.
 
 ## 🧮 SQL Analysis
+
+The SQL modules investigate business questions related to:
+
+- Data validation and quality.
+- Customer demographics and membership.
+- Sales and revenue trends.
+- Product-group performance and colour preferences.
+- Sales coverage and category trends.
+- Customer purchasing behaviour.
+
+## 💼 Business Applications
+
+The analysis can help retail teams explore opportunities such as:
+
+- Identifying customer groups with different purchase patterns.
+- Designing differentiated customer engagement campaigns.
+- Comparing sales-channel performance.
+- Understanding which product groups contribute most to sampled revenue.
+- Supporting data-informed merchandising and marketing decisions.
+
+These are potential applications of the analysis, not verified business outcomes for H&M.
+
+## 📦 Dataset Scope
+
+This project uses a **sample of 400,000 transaction records**, together with the associated customer and article records from the H&M dataset.
+
+All results reflect the selected sample and its available date range. They must not be interpreted as H&M's actual global revenue, customer totals, or company-wide performance.
+
+The available transaction data does not directly provide inventory stock levels, so the project does not claim to measure actual stockouts or inventory availability.
+
+Original raw datasets are excluded from this repository because of file-size limits. Obtain the dataset separately from its authorised source and follow the project's data-preparation instructions.
+
+## 🚀 Getting Started
+
+1. Clone this repository.
+2. Install the Python dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Prepare the datasets according to the scripts and documentation.
+4. Configure your PostgreSQL connection using a local `.env` file.
+5. Run the relevant data preparation, SQL, and customer segmentation scripts.
+6. Open the `.pbix` report in Power BI Desktop.
+
+Never commit `.env` files, passwords, API keys, or database credentials.
+
+## 🔮 Future Improvements
+
+- Add more robust cluster profiling and validation.
+- Explore customer retention and repeat-purchase behaviour.
+- Improve dashboard interactions and business-focused annotations.
+- Test whether the observed segments remain stable across different samples.
+
+## 👩‍💻 Author
+
+**Medha Patil**
+
+Aspiring Data Analyst | Business Analytics | SQL | Python | Power BI | Machine Learning
+
+GitHub: [MedhaPatil07](https://github.com/MedhaPatil07)
+
+---
+
+*This is an independent portfolio project for analytical and educational purposes. It is not an official H&M report or an endorsement by H&M.*
